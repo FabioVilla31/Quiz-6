@@ -87,6 +87,7 @@ def buscar(root,key):
         return root.val
     if root.val < key:
         return buscar(root.right, key)
+    else:
         return buscar(root.left, key)
 
 
